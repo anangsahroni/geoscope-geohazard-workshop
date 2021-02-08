@@ -1,5 +1,7 @@
 # Geoscope Geohazard Workshop HMGF UGM
-<h2 style="color:red;"> *"Applied Python for Better Geohazard Information"*</h2>
+## *"Applied Python for Better Geohazard Information"*
+
+![header_image](./figure/geoscope_header_cropped_sm.png)
 
 **Instruktor:**
 Dr.rer.nat. Wiwit Suryanto, M.Si
