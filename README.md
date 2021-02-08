@@ -1,7 +1,6 @@
+![header_image](./figure/geoscope_header_cropped_sm.png)
 # Geoscope Geohazard Workshop HMGF UGM
 ## *"Applied Python for Better Geohazard Information"*
-
-![header_image](./figure/geoscope_header_cropped_sm.png)
 
 **Instruktor:**
 Dr.rer.nat. Wiwit Suryanto, M.Si
