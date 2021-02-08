@@ -2,8 +2,9 @@
 # Geoscope Geohazard Workshop HMGF UGM
 ## *"Applied Python for Better Geohazard Information"*
 
-**Instruktor:**
+**Instruktur:**
 Dr.rer.nat. Wiwit Suryanto, M.Si
+Anang Sahroni, S.Si
 
 **Waktu:**  
 Sesi 1: 13 Februari 2021  
