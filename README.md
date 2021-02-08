@@ -22,7 +22,7 @@ Pengenalan bahasa pemrograman Python dan aplikasinya untuk *geohazard*, khususny
 3. Peserta dapat membaca, memfilter, dan mengeplot peta dan statistik gempa bumi menggunakan modul umum Python seperti `numpy`, `scipy`, dan `matplotlib`
 4. Peserta dapat menggunakan modul spesifik Python (`ObspyDMT`) [(Kasra Hosseini)](https://github.com/kasra-hosseini/obspyDMT) untuk mengetahui seismisitas dan mengunduh data rekaman gempa bumi.
 
-## Peralatan untuk peserta"
+## Peralatan untuk peserta
 Laptop ataupun *Personal Computer* (PC) yang terkoneksi dengan internet.
 
 ## Data:
