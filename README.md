@@ -20,7 +20,7 @@ Pengenalan bahasa pemrograman Python dan aplikasinya untuk *geohazard*, khususny
 1. Peserta dapat melakukan instalasi Python
 2. Peserta dapat membuat Jupyter Notebook dan menyimpan dalam repositori Github masing-masing
 3. Peserta dapat membaca, memfilter, dan mengeplot peta dan statistik gempa bumi menggunakan modul umum Python seperti `numpy`, `scipy`, dan `matplotlib`
-4. Peserta dapat menggunakan modul spesifik Python (`ObspyDMT`) [(Kasra Hosseini)](https://github.com/kasra-hosseini/obspyDMT) untuk mengetahui seismisitas dan mendownload data rekaman gempa bumi.
+4. Peserta dapat menggunakan modul spesifik Python (`ObspyDMT`) [(Kasra Hosseini)](https://github.com/kasra-hosseini/obspyDMT) untuk mengetahui seismisitas dan mengunduh data rekaman gempa bumi.
 
 ## Peralatan untuk peserta"
 Laptop ataupun *Personal Computer* (PC) yang terkoneksi dengan internet.
@@ -43,7 +43,7 @@ Laptop ataupun *Personal Computer* (PC) yang terkoneksi dengan internet.
 | 7. Memanggil fungsi bawaan python (`math`), mencoba, dan memanggil bantuan (`help`) untuk masing-masing fungsi
 | 8. Memberikan catatan dan gambar dalam bentuk `Markdown` di Jupyter Notebook
 | 9. Menyimpan notebook pada repositori Github dan menambahkan ke Binder
-| 10. Mengupdate notebook dan melakukan commit ke repository
+| 10. Mengupdate notebook dan melakukan commit ke repositori
 | **EXERCISE:** Membuat panduan instalasi Miniconda pada Jupyter Notebook dan menambahkannya di repositori Github individu. |
 ||
 | **SESI 2: 20 Februari 2021** |
@@ -67,8 +67,8 @@ Laptop ataupun *Personal Computer* (PC) yang terkoneksi dengan internet.
 | **SESI 3: 27 Februari 2021** |
 | *Menggunakan ObspyDMT* |
 | 1. Menginstall ObspyDMT pada *virtual environment* baru |
-| 2. Membuat konfigurator awal dalam bentuk `Dictionary` untuk mendownload katalog pada ObspyDMT |
-| 3. Mendownload katalog gempabumi menggunakan `event_handler` ObspyDMT |
+| 2. Membuat konfigurator awal dalam bentuk `Dictionary` untuk mengunduh katalog pada ObspyDMT |
+| 3. Mengunduh katalog gempabumi menggunakan `event_handler` ObspyDMT |
 | 4. Mengeplot episenter gempa menggunakan `local_handler` pada ObspyDMT |
 | 5. Mengeplot mekanisme fokal dan statistik sederhana gempabumi pada `event_handler` ObspyDMT |
 | 6. Membuat plot ray antara titik episenter dan lokasi  stasiun menggunakan `local_handler` obspyDMT |
@@ -86,13 +86,13 @@ Laptop ataupun *Personal Computer* (PC) yang terkoneksi dengan internet.
 
 
 ## Software untuk diinstall
-1. **Miniconda**. Instalasi Python akan dilakukan menggunakan Anaconda Distribution dalam bentuk *lite* yaitu Miniconda. Dengan Miniconda instalasi paket atau modul pendukung untuk Python akan lebih mudah dan tertata. [Download installer Miniconda](https://docs.conda.io/en/latest/miniconda.html), pilih untuk versi Python 3.8.
+1. **Miniconda**. Instalasi Python akan dilakukan menggunakan Anaconda Distribution dalam bentuk *lite* yaitu Miniconda. Dengan Miniconda instalasi paket atau modul pendukung untuk Python akan lebih mudah dan tertata. [Unduh installer Miniconda](https://docs.conda.io/en/latest/miniconda.html), pilih untuk versi Python 3.8.
 2. Editor teks agar penulisan kode lebih mudah karena biasanya sudah disertai pewarnaan kode  (*syntax highlighting*) dan indentasi otomatis. Editor teks dapat menggunakan **Notepad++**, **SublimeText**, atau menggunakan IDE yang lebih kompleks seperti **PyCharm** dan **Visual Studio Code**.
 
-Software-software yang dibutuhkan tersebut **sudah harus didownload (paling tidak) sebelum proses pemberian materi dimulai** karena ukurannya cukup besar.
+Software-software yang dibutuhkan tersebut **sudah harus diunduh (paling tidak) sebelum proses pemberian materi dimulai** karena ukurannya cukup besar.
 
 ## Bacaan Tambahan:
 Peserta dapat belajar pada Lesson di [Software Carpentry](https://software-carpentry.org/lessons/) dengan materi yang mendalam dan metode yang sama yaitu learning by doing. 
 
 ## *Acknowledgment*
-Panduan ini disusun terinspirasi dari materi pada [Software Carpentry](https://software-carpentry.org/lessons/) dan panduan workshop Leonardo Uieda yang diunggah pada [repository](https://github.com/leouieda/python-hawaii-2017) berikut ini.
+Panduan ini disusun terinspirasi dari materi pada [Software Carpentry](https://software-carpentry.org/lessons/) dan panduan workshop Leonardo Uieda yang diunggah pada [repositori](https://github.com/leouieda/python-hawaii-2017) berikut ini.
