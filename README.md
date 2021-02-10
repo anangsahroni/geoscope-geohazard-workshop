@@ -93,6 +93,9 @@ Laptop ataupun *Personal Computer* (PC) yang terkoneksi dengan internet.
 
 Software-software yang dibutuhkan tersebut **sudah harus diunduh (paling tidak) sebelum proses pemberian materi dimulai** karena ukurannya cukup besar.
 
+## Akun Github
+Peserta workshop dianjurkan mendaftarkan akun GitHub melalui [Daftar Github](http://github.com)
+
 ## Bacaan Tambahan:
 Peserta dapat belajar pada Lesson di [Software Carpentry](https://software-carpentry.org/lessons/) dengan materi yang mendalam dan metode yang sama yaitu learning by doing. 
 
