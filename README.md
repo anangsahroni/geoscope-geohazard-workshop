@@ -35,7 +35,7 @@ Laptop ataupun *Personal Computer* (PC) yang terkoneksi dengan internet.
 | **Topik** |
 |:-----------|
 | **SESI 1: 13 Februari 2021** |
-| *Instalasi Python dalam Miniconda* |
+| *[Instalasi Python dalam Miniconda](https://nbviewer.jupyter.org/github/anangsahroni/geoscope-geohazard-workshop/blob/main/1_Instalasi_Python_dalam_Miniconda.ipynb)* |
 | 1. Instalasi Miniconda pada Windows, Linux, ataupun MacOS |  
 | 2. Menjalankan Python Console melalui Anaconda Prompt |  
 | 3. Menulis kode dalam editor (Integrated Development Environment/IDE) kode dan menjalankannya melalui Anaconda Prompt
