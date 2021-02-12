@@ -91,7 +91,7 @@ Laptop ataupun *Personal Computer* (PC) yang terkoneksi dengan internet.
 1. **Miniconda**. Instalasi Python akan dilakukan menggunakan Anaconda Distribution dalam bentuk *lite* yaitu Miniconda. Dengan Miniconda instalasi paket atau modul pendukung untuk Python akan lebih mudah dan tertata. [Unduh installer Miniconda](https://docs.conda.io/en/latest/miniconda.html), pilih untuk versi Python 3.8.
 2. Editor teks agar penulisan kode lebih mudah karena biasanya sudah disertai pewarnaan kode  (*syntax highlighting*) dan indentasi otomatis. Editor teks dapat menggunakan **Notepad++**, **SublimeText**, atau menggunakan IDE yang lebih kompleks seperti **PyCharm** dan **Visual Studio Code**.
 
-Software-software yang dibutuhkan tersebut **sudah harus diunduh (paling tidak) sebelum proses pemberian materi dimulai** karena ukurannya cukup besar.
+Software-software yang dibutuhkan tersebut **sudah harus diinstall sebelum proses pemberian materi dimulai** karena ukurannya cukup besar.
 
 ## Akun Github
 Peserta workshop dianjurkan mendaftarkan akun GitHub melalui [Daftar Github](http://github.com)
