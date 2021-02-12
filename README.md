@@ -101,3 +101,13 @@ Peserta dapat belajar pada Lesson di [Software Carpentry](https://software-carpe
 
 ## *Acknowledgment*
 Panduan ini disusun terinspirasi dari materi pada [Software Carpentry](https://software-carpentry.org/lessons/) dan panduan workshop Leonardo Uieda yang diunggah pada [repositori](https://github.com/leouieda/python-hawaii-2017) berikut ini.
+
+## Lisensi
+Konten di repositori ini berada di bawah lisensi:
+[Creative Commons Attribution 4.0 International License][cc-by].
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
