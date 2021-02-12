@@ -35,7 +35,7 @@ Laptop ataupun *Personal Computer* (PC) yang terkoneksi dengan internet.
 | **Topik** |
 |:-----------|
 | **SESI 1: 13 Februari 2021** |
-| *Instalasi Python dalam Miniconda* |
+| *[Instalasi Python dalam Miniconda](https://nbviewer.jupyter.org/github/anangsahroni/geoscope-geohazard-workshop/blob/main/1_Instalasi_Python_dalam_Miniconda.ipynb)* |
 | 1. Instalasi Miniconda pada Windows, Linux, ataupun MacOS |  
 | 2. Menjalankan Python Console melalui Anaconda Prompt |  
 | 3. Menulis kode dalam editor (Integrated Development Environment/IDE) kode dan menjalankannya melalui Anaconda Prompt
@@ -91,7 +91,7 @@ Laptop ataupun *Personal Computer* (PC) yang terkoneksi dengan internet.
 1. **Miniconda**. Instalasi Python akan dilakukan menggunakan Anaconda Distribution dalam bentuk *lite* yaitu Miniconda. Dengan Miniconda instalasi paket atau modul pendukung untuk Python akan lebih mudah dan tertata. [Unduh installer Miniconda](https://docs.conda.io/en/latest/miniconda.html), pilih untuk versi Python 3.8.
 2. Editor teks agar penulisan kode lebih mudah karena biasanya sudah disertai pewarnaan kode  (*syntax highlighting*) dan indentasi otomatis. Editor teks dapat menggunakan **Notepad++**, **SublimeText**, atau menggunakan IDE yang lebih kompleks seperti **PyCharm** dan **Visual Studio Code**.
 
-Software-software yang dibutuhkan tersebut **sudah harus diunduh (paling tidak) sebelum proses pemberian materi dimulai** karena ukurannya cukup besar.
+Software-software yang dibutuhkan tersebut **sudah harus diinstall sebelum proses pemberian materi dimulai** karena ukurannya cukup besar.
 
 ## Akun Github
 Peserta workshop dianjurkan mendaftarkan akun GitHub melalui [Daftar Github](http://github.com)
@@ -101,3 +101,13 @@ Peserta dapat belajar pada Lesson di [Software Carpentry](https://software-carpe
 
 ## *Acknowledgment*
 Panduan ini disusun terinspirasi dari materi pada [Software Carpentry](https://software-carpentry.org/lessons/) dan panduan workshop Leonardo Uieda yang diunggah pada [repositori](https://github.com/leouieda/python-hawaii-2017) berikut ini.
+
+## Lisensi
+Konten di repositori ini berada di bawah lisensi:
+[Creative Commons Attribution 4.0 International License][cc-by].
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
