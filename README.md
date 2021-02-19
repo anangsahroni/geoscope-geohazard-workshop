@@ -49,7 +49,7 @@ Laptop ataupun *Personal Computer* (PC) yang terkoneksi dengan internet.
 | **EXERCISE:** Membuat panduan instalasi Miniconda pada Jupyter Notebook dan menambahkannya di repositori Github individu. |
 ||
 | **SESI 2: 20 Februari 2021** |
-| *[Materi Dasar Python](https://nbviewer.jupyter.org/github/anangsahroni/geoscope-geohazard-workshop/blob/main/2_Materi_Dasar_Python.ipynb)* |
+| *[Materi Dasar Python](https://nbviewer.jupyter.org/github/anangsahroni/geoscope-geohazard-workshop/blob/main/2_Materi_Dasar_Python.ipynb)* (atau [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/anangsahroni/geoscope-geohazard-workshop/HEAD))|
 | 1. Membuat dan mengaktifkan *virtual environment* (opsional) |
 | 2. Menginstall `pandas`, `numpy`, `matplotlib`, `scipy`, `basemap`, dan `notebook` menggunakan Anaconda Prompt pada *virtual environment* |
 | 3. Membaca data katalog menggunakan `pandas` |
