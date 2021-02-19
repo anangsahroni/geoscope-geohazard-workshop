@@ -75,8 +75,7 @@ Laptop ataupun *Personal Computer* (PC) yang terkoneksi dengan internet.
 | 5. Mengeplot mekanisme fokal dan statistik sederhana gempabumi pada `event_handler` ObspyDMT |
 | 6. Membuat plot ray antara titik episenter dan lokasi  stasiun menggunakan `local_handler` obspyDMT |
 | 7. Mengunduh data rekaman untuk waktu tertentu menggunakan `data_handler` ObspyDMT |
-| 8. Melakukan koreksi instrumen untuk data rekaman yang sudah diunduh menggunakan `local_handler` ObspyDMT |
-| 9. Membuat User Interface (UI) sederhana untuk *query* katalog dan mengeplot hasilnya menggunakan `Panel` (opsional) |
+| 8. Melakukan koreksi instrumen untuk data rekaman yang sudah diunduh menggunakan `local_handler` ObspyDMT 
 | **EXERCISE**: Membuat Plot Seismisitas untuk daerah asal peserta |
 ||
 | **PENGAYAAN MANDIRI** |
