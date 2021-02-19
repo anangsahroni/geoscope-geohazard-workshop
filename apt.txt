@@ -1,3 +1,2 @@
 libgeos-dev
 libproj-dev
-lidgdal-dev
