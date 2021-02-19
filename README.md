@@ -51,7 +51,7 @@ Laptop ataupun *Personal Computer* (PC) yang terkoneksi dengan internet.
 | **SESI 2: 20 Februari 2021** |
 | *[Materi Dasar Python](https://nbviewer.jupyter.org/github/anangsahroni/geoscope-geohazard-workshop/blob/main/2_Materi_Dasar_Python.ipynb)* (atau [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/anangsahroni/geoscope-geohazard-workshop/HEAD))|
 | 1. Membuat dan mengaktifkan *virtual environment* (opsional) |
-| 2. Menginstall `pandas`, `numpy`, `matplotlib`, `scipy`, `basemap`, dan `notebook` menggunakan Anaconda Prompt pada *virtual environment* |
+| 2. Menginstall `pandas`, `numpy`, `matplotlib`, `scipy`, `Cartopy`, dan `notebook` menggunakan Anaconda Prompt pada *virtual environment* |
 | 3. Membaca data katalog menggunakan `pandas` |
 | 4. Membedakan jenis-jenis data antar kolom pada katalog (`String`, `Integer`, dan `Float`) |
 | 5. Mengambil salah satu kolom ke dalam bentuk `List` dan mempelajari metode-metode pada `List` (`indexing`, `slicing`, `append`, dan lain sebagainya) |
