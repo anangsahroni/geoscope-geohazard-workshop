@@ -49,10 +49,10 @@ Laptop ataupun *Personal Computer* (PC) yang terkoneksi dengan internet.
 | **EXERCISE:** Membuat panduan instalasi Miniconda pada Jupyter Notebook dan menambahkannya di repositori Github individu. |
 ||
 | **SESI 2: 20 Februari 2021** |
-| *Materi Dasar Python* |
+| *[Materi Dasar Python](https://nbviewer.jupyter.org/github/anangsahroni/geoscope-geohazard-workshop/blob/main/2_Materi_Dasar_Python.ipynb)* |
 | 1. Membuat dan mengaktifkan *virtual environment* (opsional) |
-| 2. Menginstall `numpy`, `matplotlib`, `scipy`, `basemap`, dan `notebook` menggunakan Anaconda Prompt pada *virtual environment* |
-| 3. Membaca data katalog menggunakan `numpy` |
+| 2. Menginstall `pandas`, `numpy`, `matplotlib`, `scipy`, `basemap`, dan `notebook` menggunakan Anaconda Prompt pada *virtual environment* |
+| 3. Membaca data katalog menggunakan `pandas` |
 | 4. Membedakan jenis-jenis data antar kolom pada katalog (`String`, `Integer`, dan `Float`) |
 | 5. Mengambil salah satu kolom ke dalam bentuk `List` dan mempelajari metode-metode pada `List` (`indexing`, `slicing`, `append`, dan lain sebagainya) |
 | 6. Menggunakan `for` *loop* untuk mengkonversi format `String` menjadi `datetime` untuk waktu kejadian |
@@ -62,7 +62,7 @@ Laptop ataupun *Personal Computer* (PC) yang terkoneksi dengan internet.
 | 10. Mengkombinasikan `List` latitude dan longitude untuk mengeplot episenter |
 | 11. Mengintegrasikan kolom magnitude untuk membedakan ukuran titik titik plot |
 | 12. Mengintegrasikan kolom kedalaman untuk membedakan warna titik plot |
-| 13. Menambahkan *basemap* pada plot Menggunakan `Matplotlib Basemap` |
+| 13. Menambahkan *basemap* pada plot Menggunakan `Cartopy` |
 | 14. *Gridding*, Interpolasi, dan membuat kontur kedalaman menggunakan `scipy` (opsional) |
 | **EXERCISE:** Membaca file titik stasiun, memfilter berdasarkan network, dan mengeplotnya bersama dengan titik-titik gempa. |
 ||
