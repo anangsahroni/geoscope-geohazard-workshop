@@ -28,7 +28,7 @@ Pengenalan bahasa pemrograman Python dan aplikasinya untuk *geohazard*, khususny
 Laptop ataupun *Personal Computer* (PC) yang terkoneksi dengan internet.
 
 ## Data:
-1. Katalog Gempa Bumi United States of Geological Survey (USGS)
+1. [Katalog Gempa Bumi](https://github.com/anangsahroni/geoscope-geohazard-workshop/blob/main/data/demo_data_BMKG_Mamuju.csv) Badan Meteorologi Klimatologi dan Geofisika (BMKG)
 2. Titik-titik Stasiun untuk berbagai jaringan seismometer
 
 ## Jadwal
