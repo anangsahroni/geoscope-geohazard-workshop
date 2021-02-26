@@ -67,7 +67,7 @@ Laptop ataupun *Personal Computer* (PC) yang terkoneksi dengan internet.
 | **EXERCISE:** Membaca file titik stasiun, memfilter berdasarkan network, dan mengeplotnya bersama dengan titik-titik gempa. |
 ||
 | **SESI 3: 27 Februari 2021** |
-| *[ObspyDMT dan Penggunaannya](https://nbviewer.jupyter.org/github/anangsahroni/geoscope-geohazard-workshop/blob/main/3_ObspyDMT_dan_Penggunaannya.ipynb)* (atau [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/anangsahroni/geoscope-geohazard-workshop/HEAD))|
+| *[ObspyDMT dan Penggunaannya](https://nbviewer.jupyter.org/github/anangsahroni/geoscope-geohazard-workshop/blob/main/3_ObspyDMT_dan_Penggunaannya.ipynb?flush_cache=true)* (atau [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/anangsahroni/geoscope-geohazard-workshop/HEAD))|
 | 1. Menginstall ObspyDMT pada *virtual environment* baru |
 | 2. Membuat konfigurator awal dalam bentuk `Dictionary` untuk mengunduh katalog pada ObspyDMT |
 | 3. Mengunduh katalog gempabumi menggunakan `event_handler` ObspyDMT |
