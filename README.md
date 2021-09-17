@@ -1,27 +1,28 @@
 ![header_image](./figures/geoscope_header_cropped_sm.png)
 # Geoscope Geohazard Workshop HMGF UGM
-## *"Geophysical Python for Seismic Data Analysis"*
+## *"Applied Python for Better Geohazard Information"*
 
 **Instruktur:**
 Dr.rer.nat. Wiwit Suryanto, M.Si
 
-
+Anang Sahroni, S.Si
 
 **Waktu:**  
-Sesi 1: 18 September 2021  
-Sesi 2: 25 September 2021  
+Sesi 1: 13 Februari 2021  
+Sesi 2: 20 Februari 2021  
+Sesi 3: 27 Februari 2021  
 
 **Tempat:**
 Zoom Meeting
 
 **Agenda:**
-Memberikan wawasan kepada mahasiswa Geofisika dalam pengolahan data Geofisika: pemrosesan data seismik menggunakan python.
+Pengenalan bahasa pemrograman Python dan aplikasinya untuk *geohazard*, khususnya gempa bumi. Penjelasan materi tidak dilakukan menggunakan metode *fiture by fiture* melainkan peserta akan diajak mengenali Python dalam wujud pembelajaran *learning by doing* dengan bermain menggunakan data asli.
 
 ## Luaran
 1. Peserta dapat melakukan instalasi Python
-2. Peserta dapat membuat dan menggunakan Jupyter Notebook
+2. Peserta dapat membuat Jupyter Notebook dan menyimpan dalam repositori Github masing-masing
 3. Peserta dapat membaca, memfilter, dan mengeplot peta dan statistik gempa bumi menggunakan modul umum Python seperti `numpy`, `scipy`, dan `matplotlib`
-4. Peserta dapat menentukan parameter gempa menggunakan metode yang sederhana pada Python memanfaatkan modul seismologi seperti `obspy`
+4. Peserta dapat menggunakan modul spesifik Python (`ObspyDMT`) [(Kasra Hosseini)](https://github.com/kasra-hosseini/obspyDMT) untuk mengetahui seismisitas dan mengunduh data rekaman gempa bumi.
 
 ## Peralatan untuk peserta
 Laptop ataupun *Personal Computer* (PC) yang terkoneksi dengan internet.
@@ -33,7 +34,7 @@ Laptop ataupun *Personal Computer* (PC) yang terkoneksi dengan internet.
 ## Jadwal
 | **Topik** |
 |:-----------|
-| **PRESESI: 17 September 2021** |
+| **SESI 1: 13 Februari 2021** |
 | *[Instalasi Python dalam Miniconda](https://nbviewer.jupyter.org/github/anangsahroni/geoscope-geohazard-workshop/blob/main/1_Instalasi_Python_dalam_Miniconda.ipynb)* (atau [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/anangsahroni/geoscope-geohazard-workshop/HEAD))|
 | 1. Instalasi Miniconda pada Windows, Linux, ataupun MacOS |  
 | 2. Menjalankan Python Console melalui Anaconda Prompt |  
@@ -47,8 +48,8 @@ Laptop ataupun *Personal Computer* (PC) yang terkoneksi dengan internet.
 | 10. Mengupdate notebook dan melakukan commit ke repositori
 | **EXERCISE:** Membuat panduan instalasi Miniconda pada Jupyter Notebook dan menambahkannya di repositori Github individu. |
 ||
-| **SESI 1: 18 September 2021** |
-| *[introduction to geophysical programming using python: basic python for seismology](https://nbviewer.jupyter.org/github/anangsahroni/geoscope-geohazard-workshop/blob/main/2_Materi_Dasar_Python.ipynb)* (atau [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/anangsahroni/geoscope-geohazard-workshop/HEAD))|
+| **SESI 2: 20 Februari 2021** |
+| *[Materi Dasar Python](https://nbviewer.jupyter.org/github/anangsahroni/geoscope-geohazard-workshop/blob/main/2_Materi_Dasar_Python.ipynb)* (atau [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/anangsahroni/geoscope-geohazard-workshop/HEAD))|
 | 1. Membuat dan mengaktifkan *virtual environment* (opsional) |
 | 2. Menginstall `pandas`, `numpy`, `matplotlib`, `scipy`, `Cartopy`, dan `notebook` menggunakan Anaconda Prompt pada *virtual environment* |
 | 3. Membaca data katalog menggunakan `pandas` |
@@ -65,10 +66,24 @@ Laptop ataupun *Personal Computer* (PC) yang terkoneksi dengan internet.
 | 14. *Gridding*, Interpolasi, dan membuat kontur kedalaman menggunakan `scipy` (opsional) |
 | **EXERCISE:** Membaca file titik stasiun, memfilter berdasarkan network, dan mengeplotnya bersama dengan titik-titik gempa. |
 ||
-| **SESI 2: 25 September 2021** |
-| *[Source Mechanism and processing seismic data with python : Determine earthquake epicenter, hypocenter, and type of P Wave]|
-| TBA |
+| **SESI 3: 27 Februari 2021** |
+| *[ObspyDMT dan Penggunaannya](https://nbviewer.jupyter.org/github/anangsahroni/geoscope-geohazard-workshop/blob/main/3_ObspyDMT_dan_Penggunaannya.ipynb?flush_cache=true)* (atau [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/anangsahroni/geoscope-geohazard-workshop/HEAD))|
+| 1. Menginstall ObspyDMT pada *virtual environment* baru |
+| 2. Membuat konfigurator awal dalam bentuk `Dictionary` untuk mengunduh katalog pada ObspyDMT |
+| 3. Mengunduh katalog gempabumi menggunakan `event_handler` ObspyDMT |
+| 4. Mengeplot episenter gempa menggunakan `local_handler` pada ObspyDMT |
+| 5. Mengeplot mekanisme fokal dan statistik sederhana gempabumi pada `event_handler` ObspyDMT |
+| 6. Membuat plot ray antara titik episenter dan lokasi  stasiun menggunakan `local_handler` obspyDMT |
+| 7. Mengunduh data rekaman untuk waktu tertentu menggunakan `data_handler` ObspyDMT |
+| 8. Melakukan koreksi instrumen untuk data rekaman yang sudah diunduh menggunakan `local_handler` ObspyDMT 
+| **EXERCISE**: Membuat Plot Seismisitas untuk daerah asal peserta |
 ||
+| **PENGAYAAN MANDIRI** |
+| *Melakukan Deterministic Sesimic Hazard Analysis (DSHA) Menggunakan `Openquake`* |
+| 1. Menghitung parameter-parameter untuk sumber gempa menggunakan `Hazard Modelling Toolkit (hmtk)` |
+| 2. Membaca data patahan dan mengintegrasikan dengan parameter sumber yang sudah dibuat |
+| 3. Membaca data Vs30 |
+| 4. Menjalankan DSHA dan mengeplot hasilnya |
 
 
 ## Software untuk diinstall
@@ -84,5 +99,14 @@ Peserta workshop dianjurkan mendaftarkan akun GitHub melalui [Daftar Github](htt
 Peserta dapat belajar pada Lesson di [Software Carpentry](https://software-carpentry.org/lessons/) dengan materi yang mendalam dan metode yang sama yaitu learning by doing. 
 
 ## *Acknowledgment*
-Panduan ini disusun terinspirasi dari materi pada [Software Carpentry](https://software-carpentry.org/lessons/) dan panduan workshop Leonardo Uieda yang diunggah pada [repositori](https://github.com/leouieda/python-hawaii-2017) serta Lisa Itauxe [Python for ES Student](https://github.com/ltauxe/Python-for-Earth-Science-Students) berikut ini.
+Panduan ini disusun terinspirasi dari materi pada [Software Carpentry](https://software-carpentry.org/lessons/) dan panduan workshop Leonardo Uieda yang diunggah pada [repositori](https://github.com/leouieda/python-hawaii-2017) berikut ini.
 
+## Lisensi
+Konten di repositori ini berada di bawah lisensi:
+[Creative Commons Attribution 4.0 International License][cc-by].
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
