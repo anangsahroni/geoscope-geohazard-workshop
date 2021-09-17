@@ -21,7 +21,7 @@ Memberikan wawasan kepada mahasiswa Geofisika dalam pengolahan data Geofisika: p
 1. Peserta dapat melakukan instalasi Python
 2. Peserta dapat membuat dan menggunakan Jupyter Notebook
 3. Peserta dapat membaca, memfilter, dan mengeplot peta dan statistik gempa bumi menggunakan modul umum Python seperti `numpy`, `scipy`, dan `matplotlib`
-4. Peserta dapat menentukan parameter gempa menggunakan metode yang sederhana pada Python
+4. Peserta dapat menentukan parameter gempa menggunakan metode yang sederhana pada Python memanfaatkan modul seismologi seperti `obspy`
 
 ## Peralatan untuk peserta
 Laptop ataupun *Personal Computer* (PC) yang terkoneksi dengan internet.
@@ -33,7 +33,7 @@ Laptop ataupun *Personal Computer* (PC) yang terkoneksi dengan internet.
 ## Jadwal
 | **Topik** |
 |:-----------|
-| **SESI 1: 13 Februari 2021** |
+| **PRESESI: 17 September 2021** |
 | *[Instalasi Python dalam Miniconda](https://nbviewer.jupyter.org/github/anangsahroni/geoscope-geohazard-workshop/blob/main/1_Instalasi_Python_dalam_Miniconda.ipynb)* (atau [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/anangsahroni/geoscope-geohazard-workshop/HEAD))|
 | 1. Instalasi Miniconda pada Windows, Linux, ataupun MacOS |  
 | 2. Menjalankan Python Console melalui Anaconda Prompt |  
@@ -47,8 +47,8 @@ Laptop ataupun *Personal Computer* (PC) yang terkoneksi dengan internet.
 | 10. Mengupdate notebook dan melakukan commit ke repositori
 | **EXERCISE:** Membuat panduan instalasi Miniconda pada Jupyter Notebook dan menambahkannya di repositori Github individu. |
 ||
-| **SESI 2: 20 Februari 2021** |
-| *[Materi Dasar Python](https://nbviewer.jupyter.org/github/anangsahroni/geoscope-geohazard-workshop/blob/main/2_Materi_Dasar_Python.ipynb)* (atau [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/anangsahroni/geoscope-geohazard-workshop/HEAD))|
+| **SESI 1: 18 September 2021** |
+| *[introduction to geophysical programming using python: basic python for seismology](https://nbviewer.jupyter.org/github/anangsahroni/geoscope-geohazard-workshop/blob/main/2_Materi_Dasar_Python.ipynb)* (atau [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/anangsahroni/geoscope-geohazard-workshop/HEAD))|
 | 1. Membuat dan mengaktifkan *virtual environment* (opsional) |
 | 2. Menginstall `pandas`, `numpy`, `matplotlib`, `scipy`, `Cartopy`, dan `notebook` menggunakan Anaconda Prompt pada *virtual environment* |
 | 3. Membaca data katalog menggunakan `pandas` |
@@ -65,6 +65,10 @@ Laptop ataupun *Personal Computer* (PC) yang terkoneksi dengan internet.
 | 14. *Gridding*, Interpolasi, dan membuat kontur kedalaman menggunakan `scipy` (opsional) |
 | **EXERCISE:** Membaca file titik stasiun, memfilter berdasarkan network, dan mengeplotnya bersama dengan titik-titik gempa. |
 ||
+| **SESI 2: 25 September 2021** |
+| *[Source Mechanism and processing seismic data with python : Determine earthquake epicenter, hypocenter, and type of P Wave]|
+| TBA |
+||
 
 
 ## Software untuk diinstall
@@ -80,14 +84,5 @@ Peserta workshop dianjurkan mendaftarkan akun GitHub melalui [Daftar Github](htt
 Peserta dapat belajar pada Lesson di [Software Carpentry](https://software-carpentry.org/lessons/) dengan materi yang mendalam dan metode yang sama yaitu learning by doing. 
 
 ## *Acknowledgment*
-Panduan ini disusun terinspirasi dari materi pada [Software Carpentry](https://software-carpentry.org/lessons/) dan panduan workshop Leonardo Uieda yang diunggah pada [repositori](https://github.com/leouieda/python-hawaii-2017) berikut ini.
+Panduan ini disusun terinspirasi dari materi pada [Software Carpentry](https://software-carpentry.org/lessons/) dan panduan workshop Leonardo Uieda yang diunggah pada [repositori](https://github.com/leouieda/python-hawaii-2017) serta Lisa Itauxe [Python for ES Student](https://github.com/ltauxe/Python-for-Earth-Science-Students) berikut ini.
 
-## Lisensi
-Konten di repositori ini berada di bawah lisensi:
-[Creative Commons Attribution 4.0 International License][cc-by].
-
-[![CC BY 4.0][cc-by-image]][cc-by]
-
-[cc-by]: http://creativecommons.org/licenses/by/4.0/
-[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
-[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
