@@ -1,28 +1,27 @@
 ![header_image](./figures/geoscope_header_cropped_sm.png)
 # Geoscope Geohazard Workshop HMGF UGM
-## *"Applied Python for Better Geohazard Information"*
+## *"Geophysical Python for Seismic Data Analysis"*
 
 **Instruktur:**
 Dr.rer.nat. Wiwit Suryanto, M.Si
 
-Anang Sahroni, S.Si
+
 
 **Waktu:**  
-Sesi 1: 13 Februari 2021  
-Sesi 2: 20 Februari 2021  
-Sesi 3: 27 Februari 2021  
+Sesi 1: 18 September 2021  
+Sesi 2: 25 September 2021  
 
 **Tempat:**
 Zoom Meeting
 
 **Agenda:**
-Pengenalan bahasa pemrograman Python dan aplikasinya untuk *geohazard*, khususnya gempa bumi. Penjelasan materi tidak dilakukan menggunakan metode *fiture by fiture* melainkan peserta akan diajak mengenali Python dalam wujud pembelajaran *learning by doing* dengan bermain menggunakan data asli.
+Memberikan wawasan kepada mahasiswa Geofisika dalam pengolahan data Geofisika: pemrosesan data seismik menggunakan python.
 
 ## Luaran
 1. Peserta dapat melakukan instalasi Python
-2. Peserta dapat membuat Jupyter Notebook dan menyimpan dalam repositori Github masing-masing
+2. Peserta dapat membuat dan menggunakan Jupyter Notebook
 3. Peserta dapat membaca, memfilter, dan mengeplot peta dan statistik gempa bumi menggunakan modul umum Python seperti `numpy`, `scipy`, dan `matplotlib`
-4. Peserta dapat menggunakan modul spesifik Python (`ObspyDMT`) [(Kasra Hosseini)](https://github.com/kasra-hosseini/obspyDMT) untuk mengetahui seismisitas dan mengunduh data rekaman gempa bumi.
+4. Peserta dapat menentukan parameter gempa menggunakan metode yang sederhana pada Python
 
 ## Peralatan untuk peserta
 Laptop ataupun *Personal Computer* (PC) yang terkoneksi dengan internet.
@@ -66,24 +65,6 @@ Laptop ataupun *Personal Computer* (PC) yang terkoneksi dengan internet.
 | 14. *Gridding*, Interpolasi, dan membuat kontur kedalaman menggunakan `scipy` (opsional) |
 | **EXERCISE:** Membaca file titik stasiun, memfilter berdasarkan network, dan mengeplotnya bersama dengan titik-titik gempa. |
 ||
-| **SESI 3: 27 Februari 2021** |
-| *[ObspyDMT dan Penggunaannya](https://nbviewer.jupyter.org/github/anangsahroni/geoscope-geohazard-workshop/blob/main/3_ObspyDMT_dan_Penggunaannya.ipynb?flush_cache=true)* (atau [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/anangsahroni/geoscope-geohazard-workshop/HEAD))|
-| 1. Menginstall ObspyDMT pada *virtual environment* baru |
-| 2. Membuat konfigurator awal dalam bentuk `Dictionary` untuk mengunduh katalog pada ObspyDMT |
-| 3. Mengunduh katalog gempabumi menggunakan `event_handler` ObspyDMT |
-| 4. Mengeplot episenter gempa menggunakan `local_handler` pada ObspyDMT |
-| 5. Mengeplot mekanisme fokal dan statistik sederhana gempabumi pada `event_handler` ObspyDMT |
-| 6. Membuat plot ray antara titik episenter dan lokasi  stasiun menggunakan `local_handler` obspyDMT |
-| 7. Mengunduh data rekaman untuk waktu tertentu menggunakan `data_handler` ObspyDMT |
-| 8. Melakukan koreksi instrumen untuk data rekaman yang sudah diunduh menggunakan `local_handler` ObspyDMT 
-| **EXERCISE**: Membuat Plot Seismisitas untuk daerah asal peserta |
-||
-| **PENGAYAAN MANDIRI** |
-| *Melakukan Deterministic Sesimic Hazard Analysis (DSHA) Menggunakan `Openquake`* |
-| 1. Menghitung parameter-parameter untuk sumber gempa menggunakan `Hazard Modelling Toolkit (hmtk)` |
-| 2. Membaca data patahan dan mengintegrasikan dengan parameter sumber yang sudah dibuat |
-| 3. Membaca data Vs30 |
-| 4. Menjalankan DSHA dan mengeplot hasilnya |
 
 
 ## Software untuk diinstall
